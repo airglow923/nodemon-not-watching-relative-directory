@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "subdir-test": "nodemon --watch ../tmp-dir index.js",
-    "same-dir-test": "nodemon --watch ../tmp-dir/foo index.js"
+    "subdir-test": "nodemon --watch ../tmp-dir index.js"
   },
   "keywords": [],
   "author": "",
