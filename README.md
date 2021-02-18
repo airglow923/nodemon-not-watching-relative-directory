@@ -5,7 +5,7 @@ This repository is to demonstrate a behavior of `nodemon` in which it does not l
 ## Steps to reproduce
 
 1. Execute `cd nodemon-dir` in the repo.
-2. Execute `npm run subdir-test`.
+2. Execute `npm run relative-dir-test`.
 3. Open another terminal.
 4. Inside the new terminal, go to the repo.
 5. Execute `touch tmp-dir/foo`.
