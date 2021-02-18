@@ -1,3 +1,9 @@
+## Update
+
+`nodemon` by default watches files with extensions `js,mjs,json`.
+
+Change this to `*` and `nodemon` will listen to all the files in a directory.
+
 ## Description
 
 This repository is to demonstrate a behavior of `nodemon` in which it does not listen to files in relative path.
