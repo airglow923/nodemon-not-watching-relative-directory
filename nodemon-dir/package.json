@@ -1,0 +1,16 @@
+{
+  "name": "root-dir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "subdir-test": "nodemon --watch ../tmp-dir index.js",
+    "same-dir-test": "nodemon --watch ../tmp-dir/foo index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
